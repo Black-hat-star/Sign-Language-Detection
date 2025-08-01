@@ -47,3 +47,31 @@ Install dependencies:
 
 ```bash
 pip install numpy opencv-python tensorflow keras
+```
+🚀 Usage
+📸 Step 1: Collect Gesture Data
+```
+python collectdata.py
+```
+🧠 Step 2: Train the Model
+```
+python trainmodel.py
+```
+This will generate model.h5 and model.json after training.
+
+👋 Step 3: Run Real-Time Detection
+```
+python app.py
+```
+📄 View Supported Commands
+Open commands.txt to see a list of recognizable gesture commands.
+
+💡 Notes:
+
+Ensure your webcam is accessible before running the scripts.
+
+Avoid duplicate data collection by capturing each gesture clearly and only once.
+
+Logs are stored inside the Logs/ directory for troubleshooting and tracking.
+
+
