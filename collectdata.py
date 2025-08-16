@@ -15,7 +15,7 @@ while True:
              'a': len(os.listdir(directory+"/A")),
              'b': len(os.listdir(directory+"/B")),
              'c': len(os.listdir(directory+"/C")),
-            #  'd': len(os.listdir(directory+"/D")),
+            # 'd': len(os.listdir(directory+"/D")),
             #  'e': len(os.listdir(directory+"/E")),
             #  'f': len(os.listdir(directory+"/F")),
             #  'g': len(os.listdir(directory+"/G")),
@@ -138,4 +138,5 @@ while True:
 
 # Release the video capture and close all windows
 cap.release()
+
 cv2.destroyAllWindows()
